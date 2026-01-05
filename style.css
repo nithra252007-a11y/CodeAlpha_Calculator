@@ -1,0 +1,89 @@
+h1 {
+    text-align: center;
+    margin: 50px;
+
+
+
+}
+
+body {
+    background-color: rgb(120, 149, 212);
+    padding: 10px;
+
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+}
+
+.container {
+    height: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.calci {
+    background-color: rgb(115, 116, 133);
+    padding: 15px;
+    border-radius: 30px;
+    display: grid;
+    box-shadow: inset 5px 5px 12px #dce4de,
+        5px 5px 12px rgb(22, 21, 21);
+    grid-template-columns: repeat(4, 68px)
+}
+
+input {
+    grid-column: span 4;
+    height: 70px;
+    width: 260px;
+    background-color: rgb(161, 173, 199);
+    border-radius: 2rem;
+    box-shadow: inset -5px -5px 12px regb(0, 0, 0, 160),
+        inset 5px 5px 12px regb(0, 0, 0, 160);
+
+    border: none;
+    color: rgb(10, 12, 10);
+    font-size: 30px;
+    text-align: end;
+    margin: end;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+button {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(161, 173, 199);
+    ;
+    box-shadow: inset -5px -5px 12px regb(0, 0, 0, 160),
+        inset 5px 5px 12px regb(0, 0, 0, 160);
+
+    border: none;
+    margin: 6px;
+    border-radius: 1rem;
+    font-size: 16px;
+
+
+}
+
+.equal {
+    width: 115px;
+    border-radius: 1rem;
+    box-shadow: inset -5px -5px 12px regb(0, 0, 0, 160),
+        inset 5px 5px 12px regb(0, 0, 0, 160);
+
+}
+
+button:hover {
+    background-color: rgb(120, 149, 212)
+}
